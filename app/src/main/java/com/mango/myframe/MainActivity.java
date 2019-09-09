@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 
 import com.mango.myframe.electives.ElectivesFragment;
 import com.mango.myframe.homepage.HomePageFragment;
+import com.mango.myframe.itv.ItvFragment;
 import com.mango.myframe.widget.CommonTabLayout;
 
 import java.util.ArrayList;
@@ -35,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
         }};
         ArrayList<Fragment> fragments = new ArrayList<Fragment>(){{
             add(new HomePageFragment());
-            add(new HomePageFragment());
+            add(new ItvFragment());
             add(new ElectivesFragment());
-            add(new HomePageFragment());
-            add(new HomePageFragment());
-            add(new HomePageFragment());
+            add(new ItvFragment());
+            add(new ItvFragment());
+            add(new ItvFragment());
         }};
         CommonTabLayout commonTabLayout = findViewById(R.id.common_tab);
         commonTabLayout.setTabData(tabTitles);
