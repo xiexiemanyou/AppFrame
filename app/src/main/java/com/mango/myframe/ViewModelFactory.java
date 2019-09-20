@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.mango.myframe.electives.ElectivesViewModel;
+import com.mango.myframe.homepage.HomePageViewModel;
 
 /**
  * Project_name: My Frame
@@ -35,6 +36,8 @@ public class ViewModelFactory extends ViewModelProvider.NewInstanceFactory {
     public <T extends ViewModel> T create(Class<T> modelClass){
         if(modelClass.isAssignableFrom(ElectivesViewModel.class)){
             return (T) new ElectivesViewModel();
+        }else if(modelClass.isAssignableFrom(HomePageViewModel.class)){
+            return (T) new HomePageViewModel();
         }
         throw new IllegalArgumentException("Unknown ViewModel class: " + modelClass.getName());
     }

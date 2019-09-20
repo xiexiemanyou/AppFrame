@@ -9,10 +9,8 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.BindingAdapter;
-import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.LifecycleOwner;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,7 +20,6 @@ import com.mango.myframe.R;
 import com.mango.myframe.ViewModelFactory;
 import com.mango.myframe.adapter.RecyclerViewAdapter;
 import com.mango.myframe.databinding.FragmentElectivesBinding;
-import com.mango.myframe.databinding.ItemElectivesBinding;
 
 import java.util.ArrayList;
 import java.util.List;

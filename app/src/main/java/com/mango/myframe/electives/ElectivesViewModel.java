@@ -1,8 +1,5 @@
 package com.mango.myframe.electives;
 
-import android.widget.ImageView;
-
-import androidx.databinding.BindingAdapter;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 

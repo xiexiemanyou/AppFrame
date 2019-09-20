@@ -36,5 +36,7 @@ dependencies {
 
     //net
     implementation "com.android.volley:volley:$volleyVersion"
+    implementation "com.google.code.gson:gson:$gsonVersion"
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
 
 }
