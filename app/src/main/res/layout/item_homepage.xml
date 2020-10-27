@@ -29,12 +29,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@{item.artist}"
+                android:textColor="@color/colorWhite"
                 android:gravity="center" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@{item.title}"
+                android:textColor="@color/colorWhite"
                 android:gravity="center" />
         </LinearLayout>
 
